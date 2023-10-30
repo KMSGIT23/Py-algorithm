@@ -5,4 +5,3 @@ def fa(n, f, e, a):
     fa(n-1, f, a, e)
     print(f,"->", e)
     fa(n-1, a, e, f)
-
